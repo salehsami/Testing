@@ -21,7 +21,6 @@ public class Test_Register {
             Thread.sleep(4000);
             WebElement button = driver.findElement(By.tagName("button"));
             button.click();
-
         } else {
             System.out.println("Couldn't reach to the Register page");
         }
